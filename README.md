@@ -3,7 +3,7 @@
 ### Instructors
 
 - [Sergio Rey](http://sergerey.org) - University of California, Riverside
-- [Wei Kang](http://spatial.ucr.edu) - Arizona State University
+- [Wei Kang](http://spatial.ucr.edu/peopleKang.html) - Arizona State University
 
 
 ![journeys](figs/readmefigs/routes.png)
@@ -46,21 +46,23 @@ This repository contains the materials and instructions for the PySAL workshop a
 If you are familiar with GitHub, you should clone or fork this GitHub repository. Cloning can be done by:
 
 ```bash
-git clone https://github.com/sjsrey/nasrc17.git
+git clone https://github.com/sjsrey/pysalnarsc17.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/sjsrey/nasrc17.git) and clicking on the green *Download* button in the upper right.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/sjsrey/pysalnarsc17.git) and clicking on the green *Clone or download* button in the upper right.
 
-FIXME: put image of button here
+![download](figs/readmefigs/download.png)
+
 
 ## Installation
 
 We will be using a number of Python packages for geospatial analysis, specifically you must have the following installed:
 
-FIXME: list of packages here
+
+fix me with a image 
 
 
-An easy way to install all of these packages is to use a Python distribution such as [Anaconda CE](http:/store.continuuum.io/ "Anaconda CE"). In this workshop we will be using Python 2.7 so please select that version of Anaconda.
+An easy way to install all of these packages is to use a Python distribution such as [Anaconda Cloud](https://anaconda.org/ "Anaconda CE"). In this workshop we will be using Python 2.7 so please select that version of Anaconda.
 
 
 Once you have downloaded Anaconda or have set up Python another way, start a terminal and run:
@@ -74,8 +76,14 @@ This will build a conda environment that sandboxes the installation of the requi
 This may take 10-15 minutes to complete depending on the speed of your network connection.
 
 Once this completes, you can activate the workshop environment with:
+
+* on Mac, Linux
 ```bash
 source activate workshop
+```
+* on Windows:
+```bash
+activate workshop
 ```
 
 Next, you will want to test your installation with:
