@@ -75,14 +75,15 @@ This may take 10-15 minutes to complete depending on the speed of your network c
 
 Once this completes, you can activate the workshop environment with:
 ```bash
-source activate workshop```
+source activate workshop
+```
 
 Next, you will want to test your installation with:
 ```bash
  jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
- ```
+```
 
-you should see something like:
+You should see something like:
 ```bash
 [NbConvertApp] Converting notebook check_workshop.ipynb to html
 [NbConvertApp] Executing notebook with kernel: python2
