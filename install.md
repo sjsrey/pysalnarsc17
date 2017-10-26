@@ -43,27 +43,27 @@ Note that you need to have permissions to install software on the machine you wi
 ### 7. Create our conda environment for the workshop
 The command is:
 
-    conda-env create -f install_gds_stack.yml
+    conda-env create -f workshop.yml
 
 ![extract](figs/readmefigs/term3.PNG)
 
 
 ### 8. Activate your environment
-    activate gds
+    activate workshop
 
-![extract](figs/readmefigs/term4.PNG)
-
-
-### 9. Install Additional packages
-
-	pip install folium
-	pip install geojson
-	conda install -c bokeh datashader
+    source activate workshop
 
 
-### 10. Test your environment
+### 9. Test your environment
 
-    nbconvert --execute --ExecutePreprocessor.timeout=120 check_gds_stack.ipynb
+    jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
+
+you should see something like:
+
+    [NbConvertApp] Converting notebook check_workshop.ipynb to html
+    [NbConvertApp] Executing notebook with kernel: python2
+    [NbConvertApp] Writing 435635 bytes to check_workshop.html
+
 
 
 ![extract](figs/readmefigs/term5.PNG)
@@ -73,8 +73,8 @@ If your screen looks like the previous image, you e a message that the downloads
 follows:
 
 ```
-(gds) deactivate
-$ conda remove -n gds --all
+(workshop) deactivate
+$ conda remove -n workshop --all
 ``` 
 Respond `Y` when prompted.
 
@@ -98,32 +98,32 @@ Then repeat steps 7-10 above and the download should pick up where it left off.
 
 ### 4. Start a terminal and move to the archive extraction directory
 ```
-$ conda-env create -f install_gds_stack.yml
+$ conda-env create -f workshop.yml
 ```
 
 ### 5. Activate environment
 ```
-$ source activate gds
+$ source activate workshop
 ```
 
 ### 6. Install additional packages
 
-	(gds) pip install folium
-	(gds) pip install geojson
-	(gds) pip install palettable
-	(gds) conda install -c bokeh datashader
+	(workshop) pip install folium
+	(workshop) pip install geojson
+	(workshop) pip install palettable
+	(workshop) conda install -c bokeh datashader
 
 
 ### 7. Test environment
 
 ```
-(gds) jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 check_gds_stack.ipynb
-(gds) narsc16/git - [install●] » jupyter nbconvert --execute
---ExecutePreprocessor.timeout=120 check_gds_stack.ipynb
-[NbConvertApp] Converting notebook check_gds_stack.ipynb to html
+(workshop) jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 check_workshop_stack.ipynb
+(workshop) narsc16/git - [install●] » jupyter nbconvert --execute
+--ExecutePreprocessor.timeout=120 check_workshop_stack.ipynb
+[NbConvertApp] Converting notebook check_workshop_stack.ipynb to html
 [NbConvertApp] Executing notebook with kernel: python2
-[NbConvertApp] Writing 519599 bytes to check_gds_stack.html
-(gds) 
+[NbConvertApp] Writing 519599 bytes to check_workshop_stack.html
+(workshop) 
 ```
 
 If your screen looks like the previous image, you are good to go. If not, read through the directions again closely. If you still have issues please email <sjsrey@gmail.com>
@@ -135,8 +135,8 @@ If you receive a message that the downloads have timed out, the fix is as
 follows:
 
 ```
-(gds) source deactivate
-$ conda remove -n gds --all
+(workshop) source deactivate
+$ conda remove -n workshop --all
 ``` 
 Respond `Y` when prompted.
 
