@@ -1,20 +1,13 @@
-name,email,lon,lat
-Debra McKay,dmckay@iastate.edu,-93.6465,42.0266
-Alain Pholo Bala,apholo@uj.ac.za,27.9977,-26.1836
-Cory Yemen,yemenc@gmail.com,-74.4471,40.5015
-Johanna Manrique Hernandez,jemanriqueh@gmail.com,-74.0721,-4.711
-Sudhir Thakur,thakurs@csus.edu,-121.4944,38.5816
-David Patton,grazi1m@cmich.edu,-84.7752,43.5912
-Henry Renski,hrenski@umass.edu,-72.4969,42.3404
-Enza Maltese,enzamaltese@gmail.com,13.3614,38.1157
-Xian Bak,fangxian8663@gmail.com,-88.2073,40.1106
-Cynthia Goytia,cgoytia@utdt.edu,-96.797,32.7767
-Kenzo Asahi,kasahi@uc.cl,-70.6693,-33.4489
-Andrea Caragliu,10268614@polimi.it,9.1859,45.4654
-Daniel Broxterman,dbroxterman@fsu.edu,-84.2807,30.4383
-Nicholas Garcia,garcia.119@buckeyemail.osu.edu,-82.9988,39.9612
-Miriam Valdes,miriam.valdes@uadec.edu.mx,-101.7068,27.0587
-Hernan Ocampo Solarte,hocampo@uao.edu.co,-76.5358,3.4525
-Andres Vallone,andres.vallone@predoc.uam.es,-70.3975,-23.6509
-Jorge Alberto Orellana Arag√≥n,jorgealbertoorellanaaragon@gmail.com,-51.2177,-30.0346
-Seva Rodnyansky,rodnyans@usc.edu,-118.2851,34.0224
+name,email,lon,lat,affiliation
+Daidai Shen,dshen3@uncc.edu,35.307093,-80.735164,University of North Carolina at Charlotte
+Michael Reilly,mkreilly@gmail.com,41.081437,-73.818223,Columbia University
+Kai Cao,caokaisqtv@gmail.com,1.299257,103.773763,National University of Singapore
+Yang Yang,zoeyangyang@gmail.com,1.29751,103.770684,National University of Singapore
+Long Wang,wanglong@u.nus.edu,1.297477,103.770483,National University of Singapore
+Dustin Frye,dufrye@vassar.edu,41.686047,-73.897342,Vassar College
+Cristina Ibarra Armenta,cibarra@uas.edu.mx,24.825252,-107.38175,Universidad Autónoma de Sinaloa
+Cristina Miller,cmiller@ers.usda.gov,38.886768,-77.030001,U.S. Department of Agriculture
+Sudhir Thakur,thakurs@csus.edu,38.567158,-121.426703,"California State University, Sacramento"
+Gabriel Granco,ggranco@k-state.edu,39.859249,-75.783142,Stroud Water Research Cente
+Miwa Matsuo,mmatsuo@rieb.kobe-u.ac.jp,40.331755,-74.668064,Waseda Institute for Advanced Study
+Peter Han,PETER.HAN@ERS.USDA.GOV,38.886768,-77.030001,U.S. Department of Agriculture

@@ -17,15 +17,15 @@ Note that you need to have permissions to install software on the machine you wi
 
 ## Installation Under Windows
 
-### 1. Download the [Python 2.7 version of Anaconda Distribution Installer](https://repo.continuum.io/archive/Anaconda2-4.2.0-Windows-x86_64.exe)
+### 1. Download the [Python 2.7 version of Anaconda Distribution Installer](https://repo.continuum.io/archive/Anaconda2-5.0.1-Windows-x86_64.exe)
 
 ![Anaconda Windows](figs/readmefigs/acdwindows.PNG)
 
-### 2. Read the [Anaconda installation instructions](https://docs.continuum.io/anaconda/install)
+### 2. Read the [Anaconda installation instructions](https://docs.anaconda.com/anaconda/install/windows)
 
 ![Anaconda Windows](figs/readmefigs/acdwindows1.png)
 
-### 3. Download the [setup archive](  https://github.com/sjsrey/narsc16/archive/master.zip)
+### 3. Download the [setup archive](https://github.com/sjsrey/pysalnarsc17/archive/master.zip)
 
 
 ### 4. Extract the archive from step 3 to a working directory
@@ -117,7 +117,7 @@ $ source activate workshop
 ### 7. Test environment
 
 ```
-(workshop) jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 check_workshop_stack.ipynb
+(workshop) jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 check_workshop.ipynb
 (workshop) narsc16/git - [install●] » jupyter nbconvert --execute
 --ExecutePreprocessor.timeout=120 check_workshop_stack.ipynb
 [NbConvertApp] Converting notebook check_workshop_stack.ipynb to html
