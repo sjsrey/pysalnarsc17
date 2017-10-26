@@ -69,11 +69,7 @@ The command is:
 ![extract](figs/readmefigs/term5.PNG)
 
 
-If your screen looks like the previous image, you are good to go. If not, read through the directions again closely. If you still have issues please email <sjsrey@gmail.com>
-.
-### Troubleshooting under Windows
-
-If you receive a message that the downloads have timed out, the fix is as
+If your screen looks like the previous image, you e a message that the downloads have timed out, the fix is as
 follows:
 
 ```
@@ -114,6 +110,7 @@ $ source activate gds
 
 	(gds) pip install folium
 	(gds) pip install geojson
+	(gds) pip install palettable
 	(gds) conda install -c bokeh datashader
 
 

@@ -1,5 +1,4 @@
-# Spatial Data Analysis with PySAL @NARSC2016
-
+# Spatial Data Analysis with PySAL @NARSC2017
 
 **Serge Rey** <sjsrey@gmail.com>
 
