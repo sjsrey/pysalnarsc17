@@ -6,8 +6,10 @@
 - [Wei Kang](http://spatial.ucr.edu/peopleKang.html) - Arizona State University
 
 
-![journeys](figs/readmefigs/routes.png)
+![journeys2017](figs/readmefigs/routes2017.png)
 
+
+![journeys2016-17](figs/readmefigs/routes2016-17.png)
 ---
 
 This repository contains the materials and instructions for the PySAL workshop at [NARSC 2017](http://www.narsc.org/newsite/conference/workshops-and-tutorials/)
