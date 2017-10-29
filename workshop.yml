@@ -2,7 +2,9 @@
 name: workshop
 channels:
   - ioos
+  - bokeh
   - conda-forge
+
 dependencies:
   - python=2.7
   - pip
