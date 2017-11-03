@@ -12,7 +12,7 @@
 ![journeys2016-17](figs/readmefigs/routes2016-17.png)
 ---
 
-This repository contains the materials and instructions for the PySAL workshop at [NARSC 2017](http://www.narsc.org/newsite/conference/workshops-and-tutorials/)
+This repository contains the materials and instructions for the PySAL workshop at [NARSC 2017](http://www.narsc.org/newsite/conference/workshops-and-tutorials/).
 
 
 ## Schedule
@@ -32,7 +32,7 @@ This repository contains the materials and instructions for the PySAL workshop a
   * Spatial weights
 * 12:30-1:30
   * Lunch
-*  1:30-3:00
+* 1:30-3:00
   * Global spatial autocorrelation
   * Local spatial autocorrelation
   * Spatial inequality analysis
@@ -58,16 +58,15 @@ If you are not using git, you can grab the workshop materials as a zip file by p
 
 ## Installation
 
-We will be using a number of Python packages for geospatial analysis, specifically you must have the following installed:
+We will be using a number of Python packages for geospatial analysis.
 
 
-fix me with a image 
+An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). 
+In this workshop we will be using **Python 2.7** so please download that version of Anaconda.
 
+![anaconda](figs/readmefigs/anaconda.png)
 
-An easy way to install all of these packages is to use a Python distribution such as [Anaconda Cloud](https://anaconda.org/ "Anaconda CE"). In this workshop we will be using Python 2.7 so please select that version of Anaconda.
-
-
-Once you have downloaded Anaconda or have set up Python another way, start a terminal and run:
+Once you have downloaded Anaconda, start a terminal and run:
 
 ```bash
 conda-env create -f workshop.yml
@@ -99,5 +98,9 @@ You should see something like:
 [NbConvertApp] Executing notebook with kernel: python2
 [NbConvertApp] Writing 435635 bytes to check_workshop.html
 ```
+
+Open check_workshop.html in a browser, and scroll all the way down, you should see something like:
+
+![htmlout](figs/readmefigs/htmlout.png)
 
 If you do see the above, you are ready for the tutorial. If not, please contact either of us for help.
